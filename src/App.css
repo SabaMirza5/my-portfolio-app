@@ -1,0 +1,848 @@
+
+/* ===============Navbar styling start here============= */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+body {
+background: url('./assets/bg.png');
+background-position: center;
+background-size: cover;
+background-repeat: repeat;
+background-attachment: fixed;
+}
+.navbar{
+background-color: black;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 2rem;
+display: flex;
+}
+.navbar-nav .nav-item a{
+font-size: 16px;
+text-transform: uppercase;
+color: #dcca87 !important;
+}
+.navbar-logo{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.navbar-logo img{
+width: 100%;
+}
+.navbar-nav{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbar-nav .nav-item{
+margin: 0px 1rem;
+cursor: pointer;
+}
+.navbar-nav .nav-item :hover{
+color: white !important;
+}
+.navbar-log-in{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.navbar-log-in a{
+margin: 0 1rem;
+text-decoration: none;
+transition: 0.5s ease;
+color: #dcca87 !important;
+  font-size: 16px !important;
+}
+.navbar-log-in a:hover{
+border-bottom: 1px solid #DCCA87;
+}
+.navbar-toggler{
+background-color: white;
+}
+.navbar-log-in div{
+width: 1px;
+height: 30px;
+background-color: gray;
+}
+.dropdown-item {
+  color: black !important;
+}
+.dropdown-item:hover {
+color: black !important;
+background-color: black !important;
+}
+/* ===============Navbar styling end here============= */
+/* ===============HEADER SECTION STYLING START HERE============= */
+.main-heading{
+  padding-top: 70px;
+}
+.main-heading h1{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+}
+.main-heading p{
+  color: #AAAAAA;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+margin-bottom: 0px;
+padding-top: 40px;
+}
+.main-heading button{
+  border-width: 1px 1px 1px 1px;
+  border-color: #DCCA87;
+  padding: 8px 32px 8px 32px;
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+  color: #0C0C0C;
+  background: #DCCA87;
+  margin-top: 35px;
+}
+.main-heading button:hover{
+  color: #dcca87 !important;
+  background-color: black !important;
+  border: 1px solid #dcca87 !important;
+  }
+/* ===============HEADER SECTION STYLING END HERE============= */
+/* ===============PROJECTS SECTION STYLING START HERE============= */
+.projects-heading{
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.projects-heading h1{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+}
+.cards h3{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+}
+
+.cards span{
+  color: #AAAAAA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    margin-bottom: 0px;
+}
+.img-div{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.img-div img{
+  height: auto;
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+}
+.card-button button{
+      border-width: 1px 1px 1px 1px;
+    padding: 5px 0px;
+    font-family: "Cormorant Upright", Sans-serif;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    color: #0C0C0C;
+    background: #DCCA87;
+    margin-top: 20px;
+}
+.card-button button:hover{
+  color: #dcca87 !important;
+  background-color: black !important;
+  border: 1px solid #dcca87 !important;
+  }
+  .cards{
+    box-shadow: 0px 1px 16px 7px #ebda9c;
+  background-color: #1e1e1d;
+  border-radius: 36px;
+
+  }
+  .cards:hover{
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #cccccc;
+    background-color: rgb(16 15 8);
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-heading{
+  padding: 20px;
+}
+/* ===============PROJECTS SECTION STYLING END HERE============= */
+/* ===============TECHNOLOGY SECTION STYLING START HERE============= */
+.main-technology-heading h1{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.main-technology-heading P{
+  color: #AAAAAA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    margin-bottom: 40px;
+  }
+.technology-div{
+  border: 1px solid #dcca87 !important;
+  text-align: center;
+  padding: 20px;
+}
+.technology-div h3{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+}
+.technology-div p{
+  color: #AAAAAA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+.technology-div:hover{
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #cccccc;
+  background-color: rgb(31 32 32);
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+/* ===============TECHNOLOGY SECTION STYLING END HERE============= */
+/* ===============ABOUT SECTION STYLING START HERE============= */
+.two{
+  border: 1px solid #dcca87 !important;
+  text-align: center; 
+}
+.two h3{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+  padding-top: 20px;
+}
+.two p{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+.two h6{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+
+
+.image {
+  position: relative;
+  width: 95%;
+  height: 235px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 1s ease;
+}
+
+/* Now we have to style the boxes and move them in place. We will use position: absolute for this and then target the individual elements with SPECIFICITY. We hide tthe elements from being visable before the animation plays by using opacity: 0; but we can achieve a similar result by using overflow: hidden on the image element. */
+.details-window {
+  height: 180px;
+  opacity: 0;
+  background: #dcca87;
+  position: absolute;
+}
+.down{
+  top: -72.5%;
+}
+.two:hover .down {
+  transform: translateY(139.2%);
+  opacity: 0.7;
+  transition: 1s ease;
+}
+/* For this animation we need to set up a keyframe animation to define how our element fades in. We then just call it onto the element we want to use it on */
+@keyframes fade-in {
+  0% {opacity: 0}
+  50% {opacity: 0.3}
+  100% {opacity: 0.7}
+}
+
+.projects-heading p{
+  color: #AAAAAA;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+  margin-bottom: 40px;
+}
+
+/* ===============ABOUT SECTION STYLING END HERE============= */
+/* ===============PERSONAL ACOMPLISHMENT SECTION STYLING START HERE============= */
+.project-main-heading h1{
+  font-family: "Cormorant Upright", Sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0.64px;
+    color: #DCCA87;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.counter{
+  /* border: 1px solid #dcca87; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding-top: 40px; */
+  margin-top: 73px;
+  margin-bottom: 36px;
+  border-right: 1px solid #DCCA87;
+  }
+.counter p{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+  padding-top: 20px;
+  margin-bottom: 0px;
+
+}
+.value{
+  font-size: 50px;
+  font-family: "Cormorant Upright", Sans-serif;
+}
+
+/* ===============PERSONAL ACOMPLISHMENT SECTION STYLING END HERE============= */
+/* ===============FOOTER SECTION STYLING START HERE============= */
+.footer-row{
+  margin-top: 70px;
+}
+.footer-left h1{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+}
+.footer-left p{
+  color: #AAAAAA;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+    margin-bottom: 40px;
+}
+.footer-center h1{
+  font-family: "Cormorant Upright", Sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.64px;
+  color: #DCCA87;
+  padding-top: 20px;
+  margin-bottom: 35px;
+}
+.footer-center a{
+text-decoration: none;
+  color: #AAAAAA;
+}
+/* .footer-center a h6{
+padding-top: 40px;
+  } */
+.footer-right h6{
+  color: #AAAAAA;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+  /* margin-bottom: 40px; */
+}
+.footer-right p{
+  color: #AAAAAA;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.64px;
+  /* margin-bottom: 40px; */
+}
+.footer-bottom{
+  background-color: #DCCA87;
+  color: black;
+  padding: 5px 0px;
+  margin-bottom: 20px;
+}
+.footer-bottom p{
+  text-align: center;
+  /* color: white; */
+  font-size: 23px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+/* ===============FOOTER SECTION STYLING START HERE============= */
+
+
+/* ===============MEDIA QUERIES START HERE========== */
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+  .cards h3 {
+    font-size: 29px;
+}
+.cards span {
+  font-size: 13px;
+  line-height: 12px;
+}
+.cl5{
+  margin-top: 20px !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .logo-section{
+    text-align: center;
+  }
+  .main-heading h1 {
+    font-size: 66px;
+    line-height: 75px;
+}
+.card-heading {
+  padding: 10px;
+}
+.cards h3 {
+  font-size: 19px;
+}
+.cards span {
+  font-size: 11px;
+  line-height: 0px;
+
+}
+.card-button button {
+  padding: 0px 0px;
+  font-size: 12px;
+}
+.cards {
+  border-radius: 20px;
+}
+.technology-div {
+  padding: 15px;
+}
+.main-technology-heading h1 {
+  margin-bottom: 25px;
+}
+.technology-div h3 {
+  font-size: 30px;
+}
+.technology-div p {
+  font-size: 15px;
+  line-height: 22px;
+}
+.about-div h3 {
+  font-size: 26px;
+  line-height: 43px;
+  padding-top: 15px;
+}
+.about-div h6 {
+  font-size: 14px;
+  line-height: 28px;
+}
+.about-div p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 19px;
+}
+.cl4{
+  margin-top: 20px !important;
+}
+.cl5{
+  margin-top: 20px !important;
+}
+.value {
+  font-size: 31px;
+}
+.counter p {
+  font-size: 26px;
+  padding-top: 0px;
+}
+.footer-left p {
+  font-size: 13px;
+  line-height: 21px;
+}
+.footer-bottom p {
+  font-size: 19px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.navbar-log-in {
+  justify-content: center;
+}
+.navbar-log-in a {
+font-size: 13px !important;
+}
+.navbar-nav{
+margin-top: 30px;
+}
+.navbar {
+  padding: 2rem 2rem;
+}
+.logo-section{
+  text-align: center;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+.navbar-log-in {
+  justify-content: center;
+}
+.navbar-log-in a {
+font-size: 13px !important;
+}
+.navbar-nav{
+margin-top: 30px;
+}
+.navbar {
+  padding: 2rem 2rem;
+}
+.logo-section{
+  text-align: center;
+}
+.main-heading h1 {
+  font-size: 57px;
+  line-height: 57px;
+}
+.navbar{
+  padding: 20px 0px 20px 4px;
+}
+.main-heading p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.projects-heading {
+  margin-bottom: 0px;
+}
+.projects-heading h1 {
+  font-size: 50px;
+}
+.card-heading {
+  padding: 15px;
+}
+.cards h3 {
+  font-size: 27px;
+}
+.cards span {
+  font-size: 12px;
+  line-height: 15px;
+}
+.cards {
+  margin: 16px;
+}
+.card-button button {
+  padding: 2px 0px;
+  font-size: 14px;
+}
+.prj{
+  margin-top: 0px !important;
+}
+.main-technology-heading h1 {
+  font-size: 50px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.main-technology-heading P {
+  font-size: 14px;
+  line-height: 22px;
+}
+.technology-div {
+  margin: 10px;
+}
+.two h3 {
+  font-size: 25px;
+  padding-top: 14px;
+}
+.down {
+  top: -192px;
+}
+.two h6 {
+  font-size: 15px;
+  line-height: 28px;
+  padding-top: 12px;
+}
+.two p {
+  font-size: 13px;
+  line-height: 18px;
+  padding-bottom: 0px;
+}
+.image {
+  width: 95%;
+  height: 191px;
+}
+.projects-heading P {
+  font-size: 14px;
+  line-height: 22px;
+}
+.count1{
+  border-right: 1px solid #DCCA87 !important;
+}
+.count3{
+  border-right: 1px solid #DCCA87 !important;
+}
+.counter {
+  border-right: none;
+}
+.counter p {
+  font-size: 23px;
+  line-height: 10px;
+  padding-top: 21px;
+}
+.counter {
+  margin-top: 37px;
+}
+.value {
+  font-size: 40px;
+}
+.project-main-heading h1 {
+  font-size: 53px;
+  line-height: 53px;
+}
+.footer-row {
+  margin-top: 26px;
+  text-align: center;
+}
+.footer-left p {
+  font-size: 13px;
+  line-height: 23px;
+}
+.footer-left h1 {
+  font-size: 53px;
+}
+.footer-center h1 {
+  font-size: 34px;
+  padding-top: 0px;
+  margin-bottom: 23px;
+}
+.footer-center a h6{
+font-size: 13px;
+  }
+  .icons span{
+padding-left: 0px !important;
+  }
+  .icons span .Fa{
+    width: 21px !important;
+    height: 21px !important;
+  }
+  .footer-right h6 {
+    text-align: none;
+}
+.footer-bottom p {
+  font-size: 11px;
+}
+.footer-bottom {
+  margin-top: 32px;
+}
+.icons{
+  padding-left: 33px;
+}
+
+}
+@media only screen and (max-width: 320px) {
+.navbar-log-in {
+  justify-content: center;
+}
+.navbar-log-in a {
+font-size: 13px !important;
+}
+.navbar-nav{
+margin-top: 30px;
+}
+.navbar {
+  padding: 2rem 2rem;
+}
+.logo-section{
+  text-align: center;
+}
+.main-heading h1 {
+  font-size: 50px;
+  line-height: 52px;
+}
+.navbar{
+  padding: 20px 0px 20px 4px;
+}
+.main-heading p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.projects-heading {
+  margin-top: 34px;
+  margin-bottom: 0px;
+}
+.projects-heading h1 {
+  font-size: 50px;
+}
+.card-heading {
+  padding: 15px;
+}
+.cards h3 {
+  font-size: 27px;
+}
+.cards span {
+  font-size: 12px;
+  line-height: 15px;
+}
+.cards {
+  margin: 16px;
+}
+.card-button button {
+  padding: 2px 0px;
+  font-size: 14px;
+}
+.prj{
+  margin-top: 0px !important;
+}
+.main-technology-heading h1 {
+  font-size: 50px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.main-technology-heading P {
+  font-size: 14px;
+  line-height: 22px;
+}
+.technology-div {
+  margin: 10px;
+}
+.image {
+  width: 104%;
+  height: 194px;
+}
+.two h3 {
+  font-size: 25px;
+  padding-top: 14px;
+}
+.down {
+  top: -192px;
+}
+.two h6 {
+  font-size: 15px;
+  line-height: 28px;
+  padding-top: 12px;
+}
+.two p {
+  font-size: 13px;
+  line-height: 18px;
+  padding-bottom: 0px;
+}
+.projects-heading P {
+  font-size: 14px;
+  line-height: 22px;
+}
+.project-main-heading h1 {
+  font-size: 53px;
+  line-height: 53px;
+}
+.count1{
+  border-right: 1px solid #DCCA87 !important;
+}
+.count3{
+  border-right: 1px solid #DCCA87 !important;
+}
+.counter {
+  border-right: none;
+}
+.counter p {
+  font-size: 23px;
+  line-height: 10px;
+  padding-top: 21px;
+}
+.counter {
+  margin-top: 37px;
+}
+.value {
+  font-size: 40px;
+}
+.footer-row {
+  margin-top: 26px;
+  text-align: center;
+}
+.footer-left p {
+  font-size: 13px;
+  line-height: 23px;
+}
+.footer-left h1 {
+  font-size: 53px;
+}
+.footer-center h1 {
+  font-size: 34px;
+  padding-top: 0px;
+  margin-bottom: 23px;
+}
+.footer-center a h6{
+font-size: 13px;
+  }
+  .icons span{
+padding-left: 0px !important;
+  }
+  .icons span .Fa{
+    width: 21px !important;
+    height: 21px !important;
+  }
+  .footer-right h6 {
+    text-align: start;
+}
+.footer-bottom p {
+  font-size: 11px;
+}
+.footer-bottom {
+  margin-top: 32px;
+}
+.navbar-toggler-icon {
+  background: none !important;
+}
+}
